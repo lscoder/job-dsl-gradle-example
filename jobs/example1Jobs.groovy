@@ -28,3 +28,9 @@ job("$basePath/grails-example-deploy") {
         shell 'scp war file; restart...'
     }
 }
+
+job("$basePath/lscoder") {
+    steps {
+        shell 'echo First build'
+    }
+}
